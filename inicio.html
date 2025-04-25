@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Matemática</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #004080;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Portal de Matemática</strong></div>
+    <nav>
+      <a href="#conteudos">Conteúdos</a>
+      <a href="https://www.somatematica.com.br/" target="_blank">Referência Externa</a>
+    </nav>
+  </header>
+
+  <main id="conteudos">
+    <section>
+      <h2>Álgebra</h2>
+      <ul>
+        <li>Equações do 1º e 2º grau</li>
+        <li>Sistemas lineares</li>
+        <li>Expressões algébricas e fatoração</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Geometria</h2>
+      <ul>
+        <li>Área e perímetro de figuras planas</li>
+        <li>Volume de sólidos geométricos</li>
+        <li>Teorema de Pitágoras</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Estatística e Probabilidade</h2>
+      <ul>
+        <li>Medidas de tendência central (média, mediana, moda)</li>
+        <li>Gráficos e tabelas</li>
+        <li>Cálculo de probabilidade</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Portal de Matemática - Desenvolvido por [Seu Nome]</p>
+    <p>Contato: matematica@exemplo.com</p>
+  </footer>
+</body>
+</html>
