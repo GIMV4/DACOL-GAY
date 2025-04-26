@@ -8,8 +8,8 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 50px;
-    color: #FFC0CB;
-    background-color: #FFC0CB;
+    color: #ffffff;
+    background-color: #1fcbff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -30,14 +30,14 @@ body {
 }
 
 .menu-superior a {
-    color: #FFC0CB;
+    color: #ffffff;
     text-decoration: none;
     font-size: medium;
     font-weight: bold;
 }
 
 .header {
-    background-color: #712f71;
+    background-color: #002f96c7;
     width: 100%;
     min-height: 100px;
     display: flex;
@@ -50,7 +50,7 @@ body {
 }
 
 h1 {
-    color: #da98a3;
+    color: #ffffff;
     font-size: 55px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -61,13 +61,13 @@ h1 {
     gap: 32px;
     list-style: none;
     padding-top: 10px;
-    color: #FFC0CB;
+    color: #ffffff;
 }
 
 .input-group {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #acdeff;
     padding: 8px 16px 8px 8px;
     border-radius: 24px;
     gap: 8px;
@@ -84,7 +84,7 @@ h1 {
     border-radius: 100%;
     min-width: 32px;
     min-height: 32px;
-    background-color: #FFC0CB;
+    background-color: #acdeff;
     color: #ffffff;
 }
 
@@ -102,7 +102,7 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #712f71;
+    border: 5px solid #002f96c7;
 }
 
 .imagens {
@@ -113,7 +113,7 @@ img {
 }
 
 h2 {
-    color: #712f71;
+    color: #002f96c7;
     font-size: 24px;
     display: block;
     margin: 0px;
@@ -131,7 +131,7 @@ main {
 h3 {
     display: block;
     padding: 30px;
-    color: #C71585;
+    color: #2a91e6;
 }
 
 .sobre-nos {
@@ -153,12 +153,12 @@ p {
 .h3-fisica {
     display: block;
     padding: 30px;
-    color: #C71585;
+    color: #2a91e6;
 }
 
 .h2-fisica {  
     display: block;
-    color: #712f71;
+    color: #002f96c7;
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 100px;
@@ -168,7 +168,7 @@ p {
 
 .h2-mat {
     display: block;
-    color: #712f71;
+    color: #002f96c7;
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 100px;
@@ -178,7 +178,8 @@ p {
 
 .h2-quimica {
     display: block;
-    color: #712f71;
+    color: #002f96c7;
+
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 100px;
@@ -188,7 +189,8 @@ p {
 
 .h2-app {
     display: block;
-    color: #712f71;
+    color: #002f96c7;
+
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 100px;
@@ -197,7 +199,8 @@ p {
 }
 
 footer {
-    background-color: #712f71;
+    background-color: #002f96c7;
+
     color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -209,9 +212,9 @@ footer {
 
 :root{
     --preto: #000;
-    --rosa-claro: #ffc0cb;
-    --rosa:#C71585;
-    --roxo:#712f71;
+    --rosa-claro: #6fd1ff;
+    --rosa:#1562c7;
+    --roxo:#000f94;
   }
 
 .menu-disciplina {
