@@ -115,7 +115,8 @@ img {
 h2 {
     color: #002f96c7;
     font-size: 24px;
-    display: block;
+    display: flex;
+    text-align: center;
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
@@ -129,7 +130,8 @@ main {
 }
 
 h3 {
-    display: block;
+    display: flex;
+    text-align: center;
     padding: 30px;
     color: #2a91e6;
 }
