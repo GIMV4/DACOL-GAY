@@ -231,7 +231,7 @@ footer {
     color: var(--roxo);
     color: #fff;
     position: absolute;
-    left: 14rem;
+    right: 14rem;
     top: 2;
     padding: 10px;
 }
