@@ -201,10 +201,8 @@ p {
 }
 
 footer {
-    background-color: #002f96c7;
-
+    background-color: #000000c7;
     color: #ffffff;
-    text-align: center;
     padding: 20px;
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -214,8 +212,8 @@ footer {
 
 :root{
     --preto: #000;
-    --rosa-claro: #6fd1ff;
-    --rosa:#1562c7;
+    --rosa-claro: hsl(199, 55%, 72%);
+    --rosa:#4089e7;
     --roxo:#000f94;
   }
 
