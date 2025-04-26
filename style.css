@@ -255,6 +255,7 @@ footer {
     padding: 0.75rem 1rem;
     text-decoration: none;
     font-size: 20px;
+    display: block;
     right: 14rem;
     text-align: center;
 }
@@ -263,6 +264,7 @@ footer {
 }
 
 #menu-toggle:checked ~ .lista-vertical {
+    display: block;
     right: 14rem;
 }
 #menu-toggle:checked + .botao-disciplinas {
