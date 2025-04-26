@@ -153,13 +153,13 @@ p {
 }
 
 .h3-fisica {
-    display: block;
+    
     padding: 30px;
     color: #2a91e6;
 }
 
 .h2-fisica {  
-    display: block;
+    
     color: #002f96c7;
     font-weight: bold;
     margin-bottom: 10px;
@@ -169,7 +169,7 @@ p {
 }
 
 .h2-mat {
-    display: block;
+    
     color: #002f96c7;
     font-weight: bold;
     margin-bottom: 10px;
@@ -179,7 +179,7 @@ p {
 }
 
 .h2-quimica {
-    display: block;
+    
     color: #002f96c7;
 
     font-weight: bold;
@@ -190,7 +190,7 @@ p {
 }
 
 .h2-app {
-    display: block;
+    
     color: #002f96c7;
 
     font-weight: bold;
@@ -201,7 +201,7 @@ p {
 }
 
 footer {
-    background-color: #00ff37;
+    background-color: #002f96c7;
     color: #0084ff;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -255,7 +255,7 @@ footer {
     padding: 0.75rem 1rem;
     text-decoration: none;
     font-size: 20px;
-    display: block;
+    right: 14rem;
     text-align: center;
 }
 .lista-vertical a:hover {
@@ -263,7 +263,7 @@ footer {
 }
 
 #menu-toggle:checked ~ .lista-vertical {
-    display: block;
+    right: 14rem;
 }
 #menu-toggle:checked + .botao-disciplinas {
     background-color: var(--preto);
