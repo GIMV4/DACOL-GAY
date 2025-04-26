@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    color: #FFC0CB;
+    background-color: #FFC0CB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-superior {
+    position: relative;
+    z-index: 10;
+    padding: 10px 0;
+    text-align: center;
+    list-style-type: none;
+   text-decoration: none;
+}
+
+.menu-superior ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.menu-superior a {
+    color: #FFC0CB;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #712f71;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: #da98a3;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding-top: 10px;
+    color: #FFC0CB;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 16px 8px 8px;
+    border-radius: 24px;
+    gap: 8px;
+    position: absolute;
+    left: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-icon {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    min-width: 32px;
+    min-height: 32px;
+    background-color: #FFC0CB;
+    color: #ffffff;
+}
+
+.input-field {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+
+}
+.input-field:focus {
+    outline: none;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #712f71;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+h2 {
+    color: #712f71;
+    font-size: 24px;
+    display: block;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+main {
+    display: block;
+    padding: 20px;
+    color: black;
+}
+
+h3 {
+    display: block;
+    padding: 30px;
+    color: #C71585;
+}
+
+.sobre-nos {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info-julia {
+    margin-top: 0%;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    display: block;
+}
+
+.h3-fisica {
+    display: block;
+    padding: 30px;
+    color: #C71585;
+}
+
+.h2-fisica {  
+    display: block;
+    color: #712f71;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.h2-mat {
+    display: block;
+    color: #712f71;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.h2-quimica {
+    display: block;
+    color: #712f71;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.h2-app {
+    display: block;
+    color: #712f71;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #712f71;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-bottom: -30px;
+  }  
+
+:root{
+    --preto: #000;
+    --rosa-claro: #ffc0cb;
+    --rosa:#C71585;
+    --roxo:#712f71;
+  }
+
+.menu-disciplina {
+    width: 20%;
+    display: inline-block; 
+}
+
+.botao-disciplinas {
+    cursor: pointer;
+    font-size: 25px;
+    background: none;
+    background-color: var(--rosa-claro);
+    border-radius: 25px;
+    color: var(--roxo);
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 2;
+    padding: 10px;
+}
+
+#menu-toggle {
+    display: none;
+}
+.lista-vertical {
+    display: none;
+    position: absolute;
+    background-color: var(--rosa);
+    box-shadow: 0 2px 5px var(--preto);
+    min-width: 190px;
+    z-index: 1;
+    left: 1rem;
+    top:100%;
+}
+
+.lista-vertical a {
+    color: var(--preto);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.lista-vertical a:hover {
+    background-color: var(--rosa-claro);
+}
+
+#menu-toggle:checked ~ .lista-vertical {
+    display: block;
+}
+#menu-toggle:checked + .botao-disciplinas {
+    background-color: var(--preto);
+}
+
+.links-principais {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+
+.lista-horizontal {
+    list-style: none;
+    display: flex;
+    font-size: 24px;
+    gap: 32px; 
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--rosa-claro);
+}
+
+a:hover {
+    color: var(--preto);
+}
