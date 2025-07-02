@@ -48,7 +48,16 @@ body {
     top: 0;
     left: 0;
 }
+.paragrafo h4{
+    color: #002f96c7;
+    padding: 3rem;
 
+}
+.paragrafo p{
+    color: #0084ff;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 h1 {
     color: #0084ff;
     font-size: 55px;
