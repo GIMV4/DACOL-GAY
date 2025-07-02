@@ -137,6 +137,7 @@ h3 {
 }
 
 .sobre-nos {
+    display: flex;
     text-align: center;
     padding-top: 4rem;
     margin-bottom: 10px;
