@@ -82,8 +82,6 @@ export default function ConteudoSite() {
             </div>
           </div>
         </section>
-
-        {/* Você pode replicar para Matemática e Química de maneira similar */}
       </div>
     </div>
   );
