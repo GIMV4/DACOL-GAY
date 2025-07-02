@@ -132,8 +132,8 @@ main {
 h3 {
     display: flex;
     text-align: center;
-    padding: 30px;
     color: #2a91e6;
+    flex-direction: column;
 }
 
 .sobre-nos {
